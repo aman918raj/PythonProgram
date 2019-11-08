@@ -6,8 +6,9 @@ from functools import reduce
 
 def rename_columns(df2, list_cols_df, list_cols):
     i = 0
+    df3 = df2
     for col in list_cols_df:
-        df3 = df2.withColumnRenamed(col, list_cols[list_cols_df.index(col)])
+        df3 = df3.withColumnRenamed(col, list_cols[list_cols_df.index(col)])
         i += 1
     return df3
 
