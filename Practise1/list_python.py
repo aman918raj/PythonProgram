@@ -5,13 +5,16 @@ _author_='aman'
 char_list = ['a','x','f','o']
 char_list.append('v')
 print(char_list)
-
+st = "str"
+print(str(reversed(st)))
 even = [2,4,6,8]
 odd = [1,3,5,7,9]
 numbers = even + odd
+print(sorted(numbers))
 print(numbers)
 numbers.sort()
 print(numbers)
+print(numbers.sort())
 numbers_sort = sorted(numbers)
 #print(numbers.sort()) <-- returns "none" because sort function or append function or any function
 # on list applies on variable or object but it doesnot create new object.

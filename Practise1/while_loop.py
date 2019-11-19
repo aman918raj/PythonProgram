@@ -10,3 +10,4 @@ choose_direction =''
 while choose_direction not in directions:
     choose_direction = input("choose the correct direction: ")
     print(choose_direction)
+
