@@ -22,6 +22,7 @@ with open("C:\\Users\\aman.raj\\Desktop\\python_output\\file2.txt", "r") as city
     contents = city_file.readline()
 
 albums = eval(contents)
+print("*"*50 )
 print(albums)
 band, year, song1, song2 = albums
 print(band)
