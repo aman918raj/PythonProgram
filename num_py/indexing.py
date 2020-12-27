@@ -1,6 +1,7 @@
 _author_ = "aman"
 import numpy as np
 
+print(np.arange(20))
 arr = np.arange(20,40)
 print(arr)
 print("printing the size of an array {}".format(arr.size))

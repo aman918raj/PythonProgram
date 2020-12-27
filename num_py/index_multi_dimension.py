@@ -1,6 +1,7 @@
 _author_ = "aman"
 import numpy as np
 
+print(np.arange(20).reshape(4,5))
 #creating 5 X 6 matrix 5 rows and 6 columns
 matrix = np.random.rand(5,6)
 print("matrix {}".format(matrix))

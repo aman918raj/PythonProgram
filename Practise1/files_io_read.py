@@ -20,7 +20,7 @@ _author_ = "aman"
 # for line in lines:
 #     print(line,end='')
 
-with open("C:\\Users\\aman.raj\\Desktop\\new 31.txt","r") as file:
+with open("C:/Users/aman.raj/Documents/testDbf.txt","rb") as file:
     lines = file.readlines()
 print(lines)
 for line in lines[::-1]:
